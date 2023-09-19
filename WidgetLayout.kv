@@ -1,0 +1,33 @@
+BoxLayoutExample
+
+<BoxLayoutExample>:
+    orientation: "horizontal"
+    Button:
+        text: "Red Mars"
+        background_color: 255,0,0,1
+        size_hint: .5,1
+    Button:
+        text: "Green Mars"
+        background_color: 0,255,1,1
+        size_hint: 2,1
+    Button:
+        text: "Blue Mars"
+        background_color: 0,0,255,1
+        size_hint: 1,.5
+        # horizontal positions: "x"(left), "center_x", "right"
+        # vertical positions: "y"(bottom), "center_y", "top"
+        pos_hint: {"center_x":.5}
+
+
+<MainWidget>
+    Button:
+        text: "Button A"
+        size: "200dp", "300dp"
+        pos: "100dp", "100dp"
+        color: 0,1,0,1
+        background_color: 255,0,0
+
+    Label:
+        text: "Label A"
+        size: "200dp", "300dp"
+        pos: "500dp", "100dp"
