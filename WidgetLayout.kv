@@ -8,6 +8,12 @@ LayoutAssignment
         text: "Kivy Layout (Label)"
         size_hint: 1,.25
         pos_hint: {"x":0}
+        canvas.before:
+            Color:
+                rgba: (255,0,0,1)
+            Rectangle:
+                pos: self.pos
+                size: self.size
     BoxLayout:
         orientation: "horizontal"
         spacing: "15dp"
