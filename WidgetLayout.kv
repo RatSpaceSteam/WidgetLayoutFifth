@@ -2,20 +2,114 @@ LayoutAssignment
 
 <LayoutAssignment>:
     orientation: "vertical"
+    padding: "15dp"
     Label:
-        text: "Layout Assignment"
-        background_color: 0,0,255,1
-        size_hint: 1,.2
+        spacing: "15dp"
+        text: "Kivy Layout (Label)"
+        size_hint: 1,.25
         pos_hint: {"x":0}
     BoxLayout:
+        orientation: "horizontal"
+        spacing: "15dp"
         Button:
-            text: "Replace Me With Another Layout"
-            background_color: 255,0,0,1
-            size_hint: .01,1
+            text: "Button A"
+            background_color: 255,1,255
+            size_hint: .2,1
         Button:
-            text: "Replace Me With Another Layout"
-            background_color: 255,0,0,1
-            size_hint: .01,1
+            text: "Button B"
+            background_color: 255,1,255
+            size_hint: .2,1
+        BoxLayout:
+            orientation: "vertical"
+            spacing: "15dp"
+            Button:
+                text: "Button C"
+                background_color: 1,0,1
+                size_hint: 1,.8
+            Button:
+                text: "Button D"
+                background_color: 1,0,1
+                size_hint: 1,.8
+            Button:
+                text: "Button D"
+                background_color: 1,0,1
+                size_hint: 1,.8
+                pos_hint: {"y":-1}
+        GridLayout:
+            rows: 6
+            spacing: "15dp"
+            Button:
+                text: "1"
+                background_color: 0,255,0,1
+                size_hint: .2, .2
+            Button:
+                text: "2"
+                background_color: 0,255,0,1
+                size_hint: .2, .2
+            Button:
+                text: "3"
+                background_color: 0,255,0,1
+                size_hint: .2, .2
+            Button:
+                text: "4"
+                background_color: 0,255,0,1
+                size_hint: .2, .2
+            Button:
+                text: "5"
+                background_color: 0,255,0,1
+                size_hint: .2, .2
+            Button:
+                text: "6"
+                background_color: 0,255,0,1
+                size_hint: .2, .2
+            Button:
+                text: "7"
+                background_color: 0,255,0,1
+                size_hint: .2, .2
+            Button:
+                text: "8"
+                background_color: 0,255,0,1
+                size_hint: .2, .2
+            Button:
+                text: "9"
+                background_color: 0,255,0,1
+                size_hint: .2, .2
+            Button:
+                text: "10"
+                background_color: 0,255,0,1
+                size_hint: .2, .2
+            Button:
+                text: "11"
+                background_color: 0,255,0,1
+                size_hint: .2, .2
+            Button:
+                text: "12"
+                background_color: 0,255,0,1
+                size_hint: .2, .2
+            Button:
+                text: "13"
+                background_color: 0,255,0,1
+                size_hint: .2, .2
+            Button:
+                text: "14"
+                background_color: 0,255,0,1
+                size_hint: .2, .2
+            Button:
+                text: "15"
+                background_color: 0,255,0,1
+                size_hint: .2, .2
+            Button:
+                text: "16"
+                background_color: 0,255,0,1
+                size_hint: .2, .2
+            Button:
+                text: "17"
+                background_color: 0,255,0,1
+                size_hint: .2, .2
+            Button:
+                text: "18"
+                background_color: 0,255,0,1
+                size_hint: .2, .2
 
 <ScrollViewExample@ScrollView>:
     StackLayoutExample:
